@@ -1,0 +1,118 @@
+//CSS template
+
+body, header, nav, main, footer, h1, div, img, article, section, aside {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  margin: 5px;
+  max-width: 75%;
+  height: auto;
+}
+
+.txtCenter {
+  text-align: center;
+}
+
+.maxWidth {
+  width: 100%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-75 {
+  width: 75%
+}
+
+.container {
+  grid-template-columns: auto 50px auto;
+  display: grid;
+}
+
+.playerTurn {
+  border: 2px solid black;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.player1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  border: 3px solid black;
+}
+
+.player2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  border: 3px solid black;
+}
+
+.diceImg1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.diceImg2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.round {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.scoreBoard {
+  border: 2px solid black;
+  font-size: 60px;
+  width: 150px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.diceButton {
+  margin-top: 10px;
+  display: block;
+  width: 100px;
+  height: 25px;
+}
+
+.quitButton {
+  margin-top: 5px;
+}
+
+/* mobile styles */
+
+
+
+/* tablet styles */
+@media screen and (min-width: 480px) {
+
+}
+
+/* Desktop styles */
+@media screen and (min-width: 767px) {
+
+}
